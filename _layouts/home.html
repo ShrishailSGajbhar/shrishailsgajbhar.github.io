@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+{% include head.html %}
+
+<body>
+  <main role="main">
+
+    <head>
+      <!-- header -->
+      {% include header.html %}
+      <!-- header -->
+
+      {% include google-analytics.html %}
+      <!-- more -->
+    </head>
+
+
+    <!-- section -->
+    <section class="post-list">
+      <h1 class="d-none">Posts</h1>
+      <ul class="container-fluid">
+        {% for post in site.posts %}
+        <li class="row mb-0 mb-2 mb-sm-0">
+          <a href="{{ post.url | relative_url }}" class="container-fluid">
+            <div class="row">
+              <div class="col-auto p-0 pr-2">
+                <time datetime="{{ post.date }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+              </div>
+              <div class="col p-0">
+                <span>{{ post.title }}</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <!-- section -->
+
+    <!-- footer -->
+    {% include footer.html %}
+    <!-- footer -->
+  </main>
+
+  {% include script.html %}
+</body>
+
+</html>

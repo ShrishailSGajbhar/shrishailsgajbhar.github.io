@@ -1,0 +1,14 @@
+# General
+url: "https://shrishailsgajbhar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Tech(B)log of Dr. Shrishail Gajbhar" # the name of your site
+permalink: /post/:title # title only
+
+# Anylytics
+google-analytics: UA-179063751-1
+
+# Collections
+collections:
+  ipcvmldl:
+    output: true
+    permalink: /ipcvmldl/:title

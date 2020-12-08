@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+
+<head>
+  {% include head.html %}
+
+  {% include google-analytics.html %}
+  <!-- more -->
+</head>
+
+<body>
+  <main role="main">
+    <!-- header -->
+    {% include header.html %}
+    <!-- header -->
+
+    <!-- section -->
+    <section class="post">
+      <h1 class="d-none">Tags</h1>
+      {% assign tags = site.tags | sort %} {% for tag in tags %}
+      <h2 id="{{ tag[0] }}" class="text-capitalize">{{ tag[0] }}</h2>
+      <ul>
+        {% for post in tag[1] %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </section>
+    <!-- section -->
+
+    <!-- disqus -->
+    {% if page.comments == true %} {% include disqus.html %} {% endif %}
+    <!-- disqus -->
+
+    <!-- footer -->
+    {% include footer.html %}
+    <!-- footer -->
+  </main>
+
+  {% include script.html %}
+</body>
+
+</html>
