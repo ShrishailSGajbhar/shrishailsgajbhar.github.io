@@ -72,7 +72,7 @@ python circles.py
 
 **Output:**
 
-![](/assets/images/202012017/pic1.jpg)
+![](/assets/images/20201207/pic1.jpg)
 
 ## Let us create some circle art using OpenCV
 
@@ -144,7 +144,7 @@ if __name__ == '__main__':
 python CircleArt.py
 ```
 
-![](/assets/images/202012017/pic2.jpg)
+![](/assets/images/20201207/pic2.jpg)
 ## Finally, let us draw some shapes using the opencv functions mentioned above.
 
 ```python
@@ -197,7 +197,7 @@ cv2.imshow("Drawing Shapes",image)
 cv2.waitKey(0)
 ```
 
-![](/assets/images/202012017/pic3.jpg)
+![](/assets/images/20201207/pic3.jpg)
 
 # References:
 
