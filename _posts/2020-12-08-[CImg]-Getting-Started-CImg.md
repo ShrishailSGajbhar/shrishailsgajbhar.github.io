@@ -4,7 +4,7 @@ title: "[CImg] CImg Library for C++ based Image Processing"
 tags: ["CImg","image processing"]
 comments: true
 ---
-C++ is undoubtedly the choice of the programmers when they need to create memory  efficient and fast applicatons. Most of the popular computer vision libraries such as OpenCV, TensorFlow, YOLO etc. are written in C++, not only those but many popular  browsers, games and softwares are written in C++. Also, softwares involving self-driving cars prefer C++ as their  developement language. 
+C++ is undoubtedly the choice of the programmers when they need to create memory  efficient and fast applicatons. Most of the popular computer vision libraries such as OpenCV, TensorFlow, YOLO etc. are written in C++, not only those but many popular  browsers, games and softwares are written in C++. Also, softwares involving self-driving cars are mostly written using C++. 
 
 In the context of Image procesing, there are many open-source c++ libraries. One of such library is [CImg](https://cimg.eu/index.html). As per the documentation, it is a **small** and **open-source** **C++ toolkit** for **image processing** written to have following properties:
 
