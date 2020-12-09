@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[DL] My Notes on "The mathematical building blocks of neural networks" (Part-1)"
+title: "[DL] My Notes on the mathematical building blocks of neural networks (Part-1)"
 tags: ["Deep Learning","Keras","Python"]
 comments: true
 ---
+
 In this blogpost, I cover my notes on chapter-2 of the book **"Deep learning using python", by François Chollet, Manning Publications Co., Second Edition, 2020**. The author of this book is creator and main contributor for the widely used Python based deep learning library namely **Keras**. This book is updated and provides an intuitive as well as  practical approach towards deep learning. I recommend readers to read the first chapter of this book to get an overall idea about `deep learning` area.
 
 ## TOC
@@ -29,7 +30,7 @@ Class Label: {0,1,2,3,4,5,6,7,8,9}
 Link to download: http://yann.lecun.com/exdb/mnist/
 ```
 
-![](assets/images/20201209/pic1.png)
+![](/assets/images/20201209/pic1.png)
 
 Sample images from the dataset. 
 
@@ -116,7 +117,7 @@ I had encoured explanation for aove questions while reading the first chapter. A
 
 in deep learning, the each layer has `weights` associated with it and the key idea is to learn the *optimal* weight parameters so that network will correctly map example inputs to their associated targets. These weights are adjusted iteratively based on some  feedback signal obtained from the score of some loss function in a direction that will lower the loss score in the next iteration and so on. The weight adjustment is the job of an **optimizer**. optimizer does this by using the `backpropogation` algorithm, one of the most celebrated algorithm used in modern neural network implementations. See  figure below for understanding the role of  optimizer.
 
-![](assets/images/20201209/pic2.png)
+![](/assets/images/20201209/pic2.png)
 
 **Figure Reference: [2]**
 
