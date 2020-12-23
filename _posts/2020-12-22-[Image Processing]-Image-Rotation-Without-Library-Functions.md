@@ -82,7 +82,7 @@ y'
 \end{bmatrix} = \begin{bmatrix}  
 \cos(\theta) & \sin(\theta)\\  
 -\sin(\theta) & \cos(\theta)  
-\end{bmatrix}$. $\begin{bmatrix}  
+\end{bmatrix} . \begin{bmatrix}  
 x\\  
 y  
 \end{bmatrix}$$
