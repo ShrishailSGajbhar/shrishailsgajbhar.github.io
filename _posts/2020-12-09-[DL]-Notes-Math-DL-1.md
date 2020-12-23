@@ -34,7 +34,7 @@ Link to download: http://yann.lecun.com/exdb/mnist/
 
 Sample images from the dataset. 
 
-This MNIST dataset comes preloaded in the `Keras library` for which the book author (François Chollet) is primary contributor as well as maintainer. Keras is ranked as #1 for deep learning both among primary frameworks and among all frameworks used as per the Kaggle survey and over 375,000 individual users as of early 2020 [1].
+This MNIST dataset comes preloaded in the `Keras library`. Keras is ranked as #1 for deep learning both among primary frameworks and among all frameworks used as per the Kaggle survey and there are over 375,000 individual users of this library as of early 2020 [1].
 
 #### What is Keras?
 
