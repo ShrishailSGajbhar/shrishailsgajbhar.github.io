@@ -76,7 +76,7 @@ Since the output and input image sizes are same, they will have same center poin
 
 Now for correct rotation without any holes we need to fill the intensity values for output image from the new coordinates obtained using following equation:
 
-$\begin{bmatrix} 
+$$\begin{bmatrix} 
 x'\\ 
 y' 
 \end{bmatrix} = \begin{bmatrix}  
@@ -85,7 +85,7 @@ y'
 \end{bmatrix}$. $\begin{bmatrix}  
 x\\  
 y  
-\end{bmatrix}$
+\end{bmatrix}$$
 
 where `x'` and `y'` are the new coordinates after rotation by angle $\theta$ in radians. 
 
