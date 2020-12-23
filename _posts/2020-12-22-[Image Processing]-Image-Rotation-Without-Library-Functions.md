@@ -161,7 +161,7 @@ if __name__=='__main__':
 
 ```
 
-**Explanation:** In the above function, few changes are made to the function in `transform1.py` to get desired output. In this case, we first find the height and width of the rotated image then we find the new coordinates as in the `transform1.py` case except that we add center point coordinates of the original image to the new coordinates.
+**Explanation:** In the above function, few changes are made to the function in `transform1.py` to get the desired output. In this case, we first find the height and width of the rotated image followed by finding the center point coordinates of both original as well as rotated image.  Then we create a rotated image with appropriate height and width. Then, we find the new coordinates as in the `transform1.py` case except that we add center point coordinates of the original image to the new coordinates.
 
 The output of the above program is as follows:
 ![](/assets/images/20201222/pic2.png)
