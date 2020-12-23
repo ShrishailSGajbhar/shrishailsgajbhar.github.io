@@ -5,15 +5,13 @@ tags: ["Image Processing","Affine Transform","Python"]
 comments: true
 ---
 
-In this blogpost, we will try to implement the naive image rotation function from scratch to understand the concept of *affine* transformations in image processing. This is for understanding purpose, in case of practical applications use of library functions is suggested which are fully optimized functions. One can use 
+In this blogpost, we will try to implement the naive image rotation function from scratch to understand the concept of **affine** transformations in image processing. This is mainly for the understanding purpose, in case of practical applications, use of library functions is recommended which are fully optimized functions. In the context of python-based library implementations for affine transforms, one can use 
 
 1. [warpAffine](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_geometric_transformations/py_geometric_transformations.html) function from OpenCV library
 
 2. [AffineTransform](https://scikit-image.org/docs/stable/api/skimage.transform.html#skimage.transform.AffineTransform) class from scikit-image library
 
 3. [AffineTransform](https://pillow.readthedocs.io/en/1.7.8/pythondoc-PIL.ImageTransform.html) class from PIL library
-
-python library based *affine* transformations.
 
 For our task, we will write a function which takes two arguments, first argument is  `image` which is to be rotated by amount  of `degrees` provided as second argument.
 
@@ -32,7 +30,7 @@ import math
 def naive_image_rotate(image, degree):
     '''
     This function rotates the image around its center by amount of degrees
-    provided.
+    provided. The size of the rotated image is same as that of original image.
     '''
     # First we will convert the degrees into radians
     rads = math.radians(degree)
@@ -82,7 +80,7 @@ y'
 \end{bmatrix} = \begin{bmatrix}  
 \cos(\theta) & \sin(\theta)\\  
 -\sin(\theta) & \cos(\theta)  
-\end{bmatrix} . \begin{bmatrix}  
+\end{bmatrix} \begin{bmatrix}  
 x\\  
 y  
 \end{bmatrix}$$
