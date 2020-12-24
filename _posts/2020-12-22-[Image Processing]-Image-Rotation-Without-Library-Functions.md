@@ -102,7 +102,7 @@ The output of the written function `naive_image_rotate()` for input image `lena.
 ![](/assets/images/20201222/pic1.png)
 
 ## Program for image rotation with full image display
-As mentioned earlier, the above code can be modified as follows to get the rotated image showing full image as follows:
+As mentioned earlier, the above code can be modified to get the rotated image showing full image as follows:
 
 ```python
 # Written by Dr. S. S. Gajbhar
