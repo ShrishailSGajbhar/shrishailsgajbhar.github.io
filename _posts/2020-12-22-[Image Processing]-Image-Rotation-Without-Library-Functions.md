@@ -140,8 +140,8 @@ def naive_image_rotate(image, degree):
             x= (i-midx)*math.cos(rads)+(j-midy)*math.sin(rads)
             y= -(i-midx)*math.sin(rads)+(j-midy)*math.cos(rads)
 
-            x=round(x)+cx
-            y=round(y)+cy
+            x=round(x)+cy
+            y=round(y)+cx
 
             if (x>=0 and y>=0 and x<image.shape[0] and  y<image.shape[1]):
                 rot_img[i,j,:] = image[x,y,:]
@@ -171,7 +171,7 @@ The final refactored function combining the functions in transform1.py and trans
 
 ```python
 # Written by Dr. S. S. Gajbhar
-# Filename: fn_imrotate.py
+# Filename: fn_imrotate1.py
 import numpy as np
 import cv2 
 import math
@@ -197,8 +197,8 @@ def naive_image_rotate(image, degrees, option='same'):
     
     if(option!='same'):
         # Let us find the height and width of the rotated image
-        height_rot_img = round(abs(image.shape[0]*math.cos(rads))) + \
-                           round(abs(image.shape[1]*math.sin(rads)))
+        height_rot_img = round(abs(image.shape[0]*math.sin(rads))) + \
+                           round(abs(image.shape[1]*math.cos(rads)))
         width_rot_img = round(abs(image.shape[1]*math.cos(rads))) + \
                            round(abs(image.shape[0]*math.sin(rads)))
         rot_img = np.uint8(np.zeros((height_rot_img,width_rot_img,image.shape[2])))
@@ -212,8 +212,8 @@ def naive_image_rotate(image, degrees, option='same'):
             if(option!='same'):
                 x= (i-midx)*math.cos(rads)+(j-midy)*math.sin(rads)
                 y= -(i-midx)*math.sin(rads)+(j-midy)*math.cos(rads)
-                x=round(x)+cx
-                y=round(y)+cy
+                x=round(x)+cy
+                y=round(y)+cx
             else:
                 x= (i-cx)*math.cos(rads)+(j-cy)*math.sin(rads)
                 y= -(i-cx)*math.sin(rads)+(j-cy)*math.cos(rads)
@@ -223,8 +223,21 @@ def naive_image_rotate(image, degrees, option='same'):
             if (x>=0 and y>=0 and x<image.shape[0] and  y<image.shape[1]):
                 rot_img[i,j,:] = image[x,y,:]
     return rot_img 
-```
 
+if __name__=='__main__':
+    image = cv2.imread("mountain1.jpeg")
+    rotated_image = naive_image_rotate(image,45,'full')
+    cv2.imshow("original image", image)
+    cv2.imshow("rotated image",rotated_image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+```
+Output of the above function for image`mountain1.jpeg` having 300 rows and 400 columns for full image rotation
+and 45 degrees of rotation angle is as follows:
+
+![](/assets/images/20201222/pic3.png)
+
+The files created and used in this blogpost can be found at this [repo](https://github.com/ShrishailSGajbhar/Naive-image-rotation).
 # References:
 
 [1] R. Szeliski. Computer Vision: Algorithms and Applications. 2010.
