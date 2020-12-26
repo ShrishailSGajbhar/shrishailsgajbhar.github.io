@@ -232,7 +232,7 @@ if __name__=='__main__':
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
-Output of the above function for image`mountain1.jpeg` having 300 rows and 400 columns for full image rotation
+Output of the above function for image `mountain1.jpeg` having 300 rows and 400 columns for full image rotation
 and 45 degrees of rotation angle is as follows:
 
 ![](/assets/images/20201222/pic3.png)
