@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[DL] My Notes on the mathematical building blocks of neural networks (Part-1)"
+title: "[Deep Learning] My Notes on the mathematical building blocks of neural networks (Part-1)"
 tags: ["Deep Learning","Keras","Python"]
 comments: true
 ---

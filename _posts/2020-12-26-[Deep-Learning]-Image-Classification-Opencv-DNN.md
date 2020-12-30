@@ -170,6 +170,6 @@ for i, id in enumerate(idx_top5):
 
  To run the program type `python imclassify.py` at the terminal.
  
- # Reference:
+# Reference:
 
 * https://www.lynda.com/OpenCV-tutorials/Introduction-Deep-Learning-OpenCV/5034175-2.html 
