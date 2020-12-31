@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Video Classification using OpenCV's dnn Module"
+title: "[Deep Learning] Video Classification using OpenCV's dnn Module"
 tags: ["Deep Learning","Video Classification","OpenCV","Python"]
 comments: true
 ---
