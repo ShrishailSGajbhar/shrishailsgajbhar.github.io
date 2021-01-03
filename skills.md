@@ -19,3 +19,8 @@ comments: false
 ![](./assets/images/skill3.png)
 
 ---
+#### Version Control & DevOps  
+**• Git • GitHub • Docker**
+![](./assets/images/skill4.png)
+
+---
