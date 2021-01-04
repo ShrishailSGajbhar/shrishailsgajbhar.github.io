@@ -6,21 +6,21 @@ comments: true
 ---
 In this blog series, I will encapsulate my learning about Docker, an essential skill for all kinds of developers nowadays. In this blog, we will learn about basics of Docker.
 
-`Docker` is a DevOps enabling tool/engine that runs `containers` It can help maintaining the Dev and Ops teams conflicting goal requirements. Containers make application deployment easy by making "go-to production" even normal, frequent and completely mastered event. Update events also become easy since its possible to have  many containers serving a single application for increased stability during updates [1]. As long as your application is containerized, the Ops team only need to handle your container images without caring for developers hosting environment, dependencies etc. Docker can solve dependency conflicts among different applications hosted on the same server by containerizing each application with its own dependencies where changes made in one container do not affect the other. Docker containers also help in scaling when a single server isn't enough to handle a single application. Docker containers simplify the server upgrading process.
+`Docker` is a DevOps enabling tool/engine that runs `containers`. It can help maintaining the Dev and Ops teams conflicting goal requirements. Containers make application deployment easy by making "go-to production" even normal, frequent and completely mastered event. Update events also become easy since its possible to have  many containers serving a single application for increased stability during updates [1]. As long as your application is containerized, the Ops team only need to handle your container images without caring for developers hosting environment, dependencies etc. Docker can solve dependency conflicts among different applications hosted on the same server by containerizing each application with its own dependencies where changes made in one container do not affect the other. Docker containers also help in scaling when a single server isn't enough to handle a single application. Docker containers simplify the server upgrading process.
 
 Before going into details of docker, lets consider why developers should consider it as an essential skill. 
 
-A meme famous in developement community is "It works on my machine"
+A meme famous in developers community is "It works on my machine"
 
 <div style="text-align: center"><img src="/assets/images/20210103/12.jpeg" title="" alt="" width="500"></div>
 
-A funny way to eloberate how docker was born is the following image
+A funny way to elaborate how docker was born is the following image
 
 <div style="text-align: center"><img src="/assets/images/20210103/11.jpeg" title="" alt="" width="500"></div>
 
 There are different editions of Docker.
 
-1. Docker Desktop (free, suitable for developer)
+1. Docker Desktop (suitable for developer)
 
 2. Docker Engine Community (suitable for small server, small applications)
 
@@ -62,7 +62,7 @@ Basically a Docker server is a host for many containers. Multiple instances of t
 
 <div style="text-align: center"><img src="/assets/images/20210103/15.png" title="" alt="" width="450"></div>
 
-`Registries` store the `images`. In the example above, the app2 image is used
+`Registries` store the `images`. In the example above, the App2 image is used
 to create two containers. Each container lives its own life, and they both share
 a common root: their image from the registry.
 
