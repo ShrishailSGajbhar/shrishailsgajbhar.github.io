@@ -6,7 +6,7 @@ comments: true
 ---
 In this blog series, I will encapsulate my learning about Docker, an essential skill for all kinds of developers nowadays. In this blog, we will learn about basics of Docker.
 
-`Docker` is a DevOps enabling tool/engine that runs `containers`. It can help maintaining the Dev and Ops teams conflicting goal requirements. Containers make application deployment easy by making "go-to production" even normal, frequent and completely mastered event. Update events also become easy since its possible to have  many containers serving a single application for increased stability during updates [1]. As long as your application is containerized, the Ops team only need to handle your container images without caring for developers hosting environment, dependencies etc. Docker can solve dependency conflicts among different applications hosted on the same server by containerizing each application with its own dependencies where changes made in one container do not affect the other. Docker containers also help in scaling when a single server isn't enough to handle a single application. Docker containers simplify the server upgrading process.
+`Docker` is a DevOps enabling tool/engine that runs `containers`. It can help maintaining the Dev and Ops teams conflicting goal requirements. Containers make application deployment easy by making "go-to production" event normal, frequent and completely mastered event. Update events also become easy since its possible to have  many containers serving a single application for increased stability during updates [1]. As long as your application is containerized, the Ops team only need to handle your container images without caring for developers hosting environment, dependencies etc. Docker can solve dependency conflicts among different applications hosted on the same server by containerizing each application with its own dependencies where changes made in one container do not affect the other. Docker containers also help in scaling when a single server isn't enough to handle a single application. Docker containers simplify the server upgrading process.
 
 Before going into details of docker, lets consider why developers should consider it as an essential skill. 
 
@@ -43,7 +43,7 @@ If you are running this for the first time fresh after docker installation, then
 
 ![](/assets/images/20210103/12.png)
 
-
+We will revisit this section for detailed explanation after going through the basic concepts of Docker.
 
 ## Basic Concepts:
 
