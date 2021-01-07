@@ -4,7 +4,7 @@ title: "[Docker] Docker for AI developers: Basics (Part-II)"
 tags: ["Docker"]
 comments: true
 ---
-In the previous [blog post], we learned some basics concepts of the Docker. In this post, we will look into more details which will make us more comfortable with using the Docker.
+In the previous [blog post](https://shrishailsgajbhar.github.io/post/Docker-Docker-For-AI-Developers-Part-1), we learned some basics concepts of the Docker. In this post, we will look into more details which will make us more comfortable with using the Docker.
 
 Each time when we run a `docker run` command on some image, we kind of create a new computer with empty environment on which we can create/setup our application, execute it and then throw it away.
 
