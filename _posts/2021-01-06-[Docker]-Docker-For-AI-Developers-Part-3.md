@@ -5,7 +5,7 @@ tags: ["Docker"]
 comments: true
 ---
 
-In the previous [blog post](https://shrishailsgajbhar.github.io/post/Docker-Docker-For-AI-Developers-Part-2), we stuied about creating and running the detached containers, containers listening to incoming network connections and the concept of volumes. In this blog post we will see the basics to get started towards writing your own Docker images and the use of environment variables in Docker images.
+In the previous [blog post](https://shrishailsgajbhar.github.io/post/Docker-Docker-For-AI-Developers-Part-2), we studied about creating and running the detached containers, containers listening to incoming network connections and the concept of volumes. In this blog post we will see the basics to get started towards writing your own Docker images and the use of environment variables in Docker images.
 
 ## Creating Your Own Docker Images
 
@@ -64,7 +64,7 @@ docker build -f /path/to/a/Dockerfile .
 
 **About tags of the images:** 
 
-The `hello` image reated above is actually refered by Docker as  `hello:latest` image where `latest` is the tag of the image. If tag is not specified while creating the images then they will be by default tagged with `latest` tag. If you want to create an image with different tag then you may provide it while running the `docker build` command as follows:
+The `hello` image created above is actually referred by Docker as  `hello:latest` image where `latest` is the tag of the image. If tag is not specified while creating the images then they will be by default tagged with `latest` tag. If you want to create an image with different tag then you may provide it while running the `docker build` command as follows:
 
 ```bash
 docker build -t hello:1.0 .
@@ -158,7 +158,7 @@ VOLUME /path/to/directory
 
 ### Creating a Docker image that runs a python file
 
-> Now, as an exercise let us create an image such that when a container is run, it will calculate and print area of a cirle using Python with  diameter as an environment variable.
+> Now, as an exercise let us create an image such that when a container is run, it will calculate and print area of a circle using Python with  diameter as an environment variable.
 
 The program (`compute1.py`) to solve above exercise is as follows:
 
