@@ -192,6 +192,16 @@ sudo docker run firstpy
 
 is as follows:
 ![](/assets/images/20210106/b4.png)
+
+Please watch the hands on video below to understand, how to create your own Docker image.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sz3urdtBkI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Hosting your Docker image on the DockerHub
+Please watch the hands on video below to understand, how to host your Docker image on the DockerHub.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XlO3dvAmlIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # References:
 
 [1] Learn Docker - .NET Core, Java, Node.JS, PHP or Python by Arnaud Weil, 2018

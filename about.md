@@ -20,8 +20,7 @@ I have started this blog as a personal logbook to retrospect what I have learned
 Ph.D in Information and Communication Technology (ICT)  
 Email: <shrishailgajbhar5@gmail.com>**  
 
-### \[[CV](CV_SSG.pdf){:target="_blank"}\] \[[Google Scholar](https://scholar.google.co.in/citations?user=ObE0HeYAAAAJ&hl=en){:target="_blank"}\] \[[GitHub](https://github.com/ShrishailSGajbhar){:target="_blank"}\] \[[LinkedIn](https://www.linkedin.com/in/shrishailgajbhar){:target="_blank"}\]
-
+### \[[CV](CV_SSG.pdf){:target="_blank"}\] \[[Google Scholar](https://scholar.google.co.in/citations?user=ObE0HeYAAAAJ&hl=en){:target="_blank"}\] \[[GitHub](https://github.com/ShrishailSGajbhar){:target="_blank"}\] \[[LinkedIn](https://www.linkedin.com/in/shrishailgajbhar){:target="_blank"}\] \[[Kaggle](https://www.kaggle.com/shrishailgajbhar){:target="_blank"}\] \[[HackerRank](https://www.hackerrank.com/shrishailgajbha1){:target="_blank"}\] \[[SoloLearn](https://www.sololearn.com/Profile/19733903){:target="_blank"}\]
 ### News
 
 * Recently completed an online Post Graduate Program in Machine Learning (PGP-ML) offered by [Great Learning](https://www.greatlearning.in/pg-program-machine-learning-course), an ed-tech company. [[view certificate](https://olympus1.greatlearning.in/certificate/RLYZBOCW){:target="_blank"}] [[view transcript](https://olympus1.greatlearning.in/transcript/RQWDHIVF){:target="_blank"}]  [[view e-portfolio](https://eportfolio.greatlearning.in/dr--shrishail-sharad-gajbhar){:target="_blank"}].
@@ -41,7 +40,11 @@ Email: <shrishailgajbhar5@gmail.com>**
 ### Education
 
 *   2012.01--2017.12: Ph.D. (ICT), [DA-IICT, Gandhinagar](https://www.daiict.ac.in/){:target="_blank"}, Gujarat, India.
+    * Thesis Title: ["Wavelets and filter banks: novel approaches for real and complex-valued transform designs"](http://drsr.daiict.ac.in/handle/123456789/650){:target="_blank"} [[View](201121016.pdf){:target="_blank"}\]
+    * Supervisor: [Dr. Manjunath V. Joshi](http://intranet.daiict.ac.in/~mv_joshi/){:target="_blank"}
 *   2009.06--2017.06: M.Tech. (Instrumentation Engg.), [SGGSIE&T, Nanded](https://sggs.ac.in/){:target="_blank"}, Maharastra, India.
+    * Dissertation Title: "Personal verification system based on iris texture analysis" [[View](rootfile.pdf){:target="_blank"}\]
+    * Supervisor: [Dr. Raghunath S. Holambe](https://onlinesggs.org/faculty_profile/users/view_profile.php?id=88){:target="_blank"}
 *   2004.06--2008.06: B. Tech. (Ele. & Telecomm. Engg.), [SGGSIE&T, Nanded](https://sggs.ac.in/){:target="_blank"}, Maharastra, India.
 
 ---
