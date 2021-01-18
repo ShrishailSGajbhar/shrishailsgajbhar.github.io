@@ -11,7 +11,8 @@ I believe in **life long learning**. Here is the list of courses that I have com
 
 ---
 
-#### Recent Certificates:
+#### Recent Certificates: 
+* **18-Jan-21**: Python for Data Science - by NPTEL [[view credential](https://internalapp.nptel.ac.in/NOC/NOC20/SEM2/Ecertificates/106/noc20-cs80/Course/NPTEL20CS80S32320262166742.jpg){:target="_blank"}](**Among top 1%**)
 * **09-Jan-21**: C++ - by [SoloLearn](https://www.sololearn.com/learning/1051) [[view credential](https://www.sololearn.com/certificates/course/en/19733903/1051/landscape/png){:target="_blank"}]
 * **16-Oct-20**: Introduction to Intel® Distribution of OpenVINO™toolkit for Computer Vision Applications - Intel - Coursera [[view credential](https://www.coursera.org/account/accomplishments/certificate/JN3XBBHV2AM5){:target="_blank"}]
 
@@ -30,7 +31,6 @@ I believe in **life long learning**. Here is the list of courses that I have com
 * Sequences, Time Series and Prediction - by deeplearning.ai - Coursera [[view credential](https://www.coursera.org/account/accomplishments/certificate/BS4Z3933P6WZ){:target="_blank"}]
 * Data Science Math Skills - by Duke University - Coursera [[view credential](https://www.coursera.org/account/accomplishments/certificate/AVMD8CWCHM73){:target="_blank"}]
 * Getting Started with AWS Machine Learning - by Coursera [[view credential](https://www.coursera.org/account/accomplishments/certificate/RZXSDLEUTW32){:target="_blank"}]
-* Python for Data Science - by NPTEL [[view credential](https://nptel.ac.in/content/noc/NOC20/SEM1/Ecertificates/106/noc20-cs36/Assignment/Certificates/NPTEL20CS36S1PC957273.jpg){:target="_blank"}]
 * The Joy of Computing using Python - by NPTEL [[view credential](https://nptel.ac.in/content/noc/NOC19/SEM2/Ecertificates/106/noc19-cs41/Course/NPTEL19CS41S52160439191170727.jpg){:target="_blank"}]
 * Programming in Java - by NPTEL [[view credential](https://nptel.ac.in/content/noc/NOC19/SEM1/Ecertificates/106/noc19-cs07/Course/NPTEL19CS07S52070147191167482.jpg){:target="_blank"}] (**among top 1%**)
 
