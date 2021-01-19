@@ -12,7 +12,7 @@ I believe in **life long learning**. Here is the list of courses that I have com
 ---
 
 #### Recent Certificates: 
-* **18-Jan-21**: Python for Data Science - by NPTEL [[view credential](https://internalapp.nptel.ac.in/NOC/NOC20/SEM2/Ecertificates/106/noc20-cs80/Course/NPTEL20CS80S32320262166742.jpg){:target="_blank"}](**Among top 1%**)
+* **18-Jan-21**: Python for Data Science - by NPTEL [[view credential](https://internalapp.nptel.ac.in/NOC/NOC20/SEM2/Ecertificates/106/noc20-cs80/Course/NPTEL20CS80S32320262166742.jpg){:target="_blank"}]] (**Among top 1%**)
 * **09-Jan-21**: C++ - by [SoloLearn](https://www.sololearn.com/learning/1051) [[view credential](https://www.sololearn.com/certificates/course/en/19733903/1051/landscape/png){:target="_blank"}]
 * **16-Oct-20**: Introduction to Intel® Distribution of OpenVINO™toolkit for Computer Vision Applications - Intel - Coursera [[view credential](https://www.coursera.org/account/accomplishments/certificate/JN3XBBHV2AM5){:target="_blank"}]
 
