@@ -55,7 +55,7 @@ EXPOSE 8888
 CMD ["jupyter", "notebook", "--port=8888","--no-browser","--ip=0.0.0.0", "--allow-root"]
 ```
 
-**Explanation for the Dockerfile:** We start by specifiying our base image which is `python:3.7` which is sufficient for our problem at hand and also it comes preloaded with some executables such as `pip`. Then we copy then copy our `requirements.txt` file present inside our current folder to the root folder of the base image. In the next line, we create an image layer by specifying the `pip` installer the python packages needed to be installed. In the next line we create a directory inside the Docker image which will be mapped to the host directory for having the consistent volume. The `WORKDIR` command in the docker file sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the `Dockerfile`. If the `WORKDIR` doesn’t exist, it will be created even if it’s not used in any subsequent `Dockerfile` instruction [1]. The `copy` instruction will copy the data from the specified local directory path on host machine to the specified folder inside docker container.
+**Explanation for the Dockerfile:** We start by specifiying our base image which is `python:3.7` which is sufficient for our problem at hand and also it comes preloaded with some executables such as `pip`. Then we copy our `requirements.txt` file present inside our current folder to the root folder of the base image. In the next line, we create an image layer by specifying the `pip` installer the python packages needed to be installed. In the next line we create a directory inside the Docker image which will be mapped to the host directory for having the consistent volume. The `WORKDIR` command in the docker file sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the `Dockerfile`. If the `WORKDIR` doesn’t exist, it will be created even if it’s not used in any subsequent `Dockerfile` instruction [1]. The `copy` instruction will copy the data from the specified local directory path on host machine to the specified folder inside docker container.
 
 `EXPOSE 8888` is used for documentation purpose which specifies that we will be using port 8888 inside the container for our purpose. Finally we specify the `CMD` instruction to specify how the jupyter notebook service should be running when a container is created.  Since using `jupyter notebook` as a [Docker CMD](https://docs.docker.com/engine/reference/builder/#cmd) results in kernels repeatedly crashing, likely due to a lack of [PID reaping](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/). To avoid this, we use the [tini](https://github.com/krallin/tini) `init` as our
 Dockerfile *ENTRYPOINT* [2].
@@ -98,7 +98,7 @@ sudo docker build -t firstml .
 sudo docker run --rm -it -v $(pwd):/data/notebook -p 8888:8888 firstml
 ```
 
-**Explanation:** Here, `docker run` is the command to create and run the container followed by different arguments. Let us see their use one by one. The `--rm` flag will remove the container after its life is over.  The`-it` flag will run the container in an interactive mode. Since we want to make use of volume the `-v` flag is used followed by mapping between the directories from host system to the one inside the container.
+**Explanation:** Here, `docker run` is the command to create and run the container followed by different arguments. Let us see their use one by one. The `--rm` flag will remove the container after its life is over.  The`-it` flag will run the container in an interactive mode. Since we want to make use of volume, the `-v` flag is used followed by mapping between the directories from host system to the one inside the container.
 
 One can see the current folder i.e., `$(pwd)` in above command has directory `/data/input` which will be mapped to `data/notebook` inside the container. 
 
@@ -114,7 +114,7 @@ The above `docker build` command produces following output
 ![](/assets/images/20210120/pic4.png)
 
 
-Since we have provided `--no browser` option, it won't automatically open the jupyter notebook server in the web browser. We copy and paste the one of the URL available in the output log to open the jupyter notebook. The output in this case is:
+Since we have provided `--no browser` option, it won't automatically open the jupyter notebook server in the web browser. We copy and paste one of the URL available in the output log to open the jupyter notebook. The output in this case is:
 
  ![](/assets/images/20210120/pic5.png)
 
@@ -127,7 +127,7 @@ The demo processing program is as follows:
  ![](/assets/images/20210120/pic6.png)
  ![](/assets/images/20210120/pic7.png)
 
-One can stop the container and check that in our local system folder `data/input`, we see two new files, the IPython notebook file and the `processed.csv` file.
+One can stop the container and check in our local system folder `data/input` that we see two new files, the IPython notebook file and the `processed.csv` file.
 
  ![](/assets/images/20210120/pic8.png)
 
