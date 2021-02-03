@@ -19,7 +19,7 @@ In this post, we start our journey by following the master Mr. Adrian Rosebrock'
 Solution: The solution strategy is simple:
 1. Read the color image whose path is given as command line argument
 1. Convert this image to the grayscale
-1. Apply the Gaussian blur to this image
+1. Apply the Gaussian blur to grayscale image
 1. Find the Canny edge detected image using the output image of step 3.
 1. Use the binary image as input to function `cv2.findContours` to get the contours of the detected objects 
 1. Print the total detected objects using the length of the contour related output variable of the `cv2.findContours` function.
@@ -80,6 +80,12 @@ plt.show()
 cv2.waitKey(0)
 
 ```
+#### How to run:
+
+```bash
+python detect_coins.py --image ../images/coins.png
+
+```
 
 **Output images:**
 
@@ -97,6 +103,12 @@ cv2.waitKey(0)
 **Separated Coins:**
 
 ![](/assets/images/20210202/pic4.png)
+
+#### Failure case(s):
+Well the above program was very basic and it fails to detect the circular objects (apples) in a real word pricture due to incorrect Canny edge map obtained as shown below:
+![](/assets/images/20210202/pic5.png)
+
+One can observe that accuracy of the above program depends on the correctness of the preprocessing step i.e., Canny edge detection. How can we improve our edge map in this case and get correct output as 15? We will address this problem in the next blog. 
 
 # References
 1) Practical Python and OpenCV: An Introductory, Example Driven Guide to Image Processing and Computer Vision, 3rd Edition by Dr. Adrian Rosebrock.
