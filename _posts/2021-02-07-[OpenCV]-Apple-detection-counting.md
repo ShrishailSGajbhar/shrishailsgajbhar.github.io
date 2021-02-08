@@ -15,7 +15,7 @@ In this post, we will consider two approaches to detect and count the apples in 
 The program below is an improvement of the coin detection algorithm of previous blog post for apple detection and counting purpose. 
 
 ```python
-# Name: apple_detect_1.py
+# Name: approach_1.py
 # By Dr. S. S. Gajbhar
 import cv2
 import numpy as np
@@ -98,7 +98,8 @@ The following program provides the best results for detecting and counting the a
 **Program:**
 
 ```python
-
+# Name: approach_2.py
+# By Dr. S. S. Gajbhar
 import cv2 
 import numpy as np 
 import argparse 
@@ -196,11 +197,11 @@ Following is the output image which accurately detects and counts the number of 
 
 ![](/assets/images/20210207/pic6.png)
 
-One can see that, above algorithm correctly detects and counts the number of apples in the image despite different types of apples.
+One can see that, except for one type of apple (McIntosh), above algorithm correctly detects and counts the number of apples despite different types of apples.
 
 ![](/assets/images/20210207/pic5.png)
 
-In the above image, except two yellow color apples, algorithm correctly detects presence of apples. For one apple however we can observe two detected circles which may be due to incorrect mask. `One can add the range of the yellow colors of apples to have a better mask which will also detect the yellow color apples.`
+In the above image, except two yellow color apples, algorithm correctly detects presence of apples. For one apple however we can observe two detected circles which may be due to incorrect mask for that apple. `One can add the range of the yellow colors of apples to have a better mask which will also detect the yellow color apples.`
 
 ![](/assets/images/20210207/pic4.png)
 
