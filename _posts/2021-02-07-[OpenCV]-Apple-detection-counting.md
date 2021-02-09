@@ -6,7 +6,7 @@ tags: ["OpenCV","Image Processing"]
 comments: true
 
 ---
-In the previous [blog post](https://shrishailsgajbhar.github.io/post/OpenCV-OpenCV-Basic-Project-1), we learned to detect and count the coins in an image captured in a controlled environment. We also saw a case where the algorithm failed to detect and count the apples in a real life image mainly due to the preprocessing step of Canny edge detection. 
+In the previous [blog post](https://shrishailsgajbhar.github.io/post/OpenCV-OpenCV-Basic-Project-1), we learned how to detect and count the coins in an image captured in a controlled environment. We also saw a case where the algorithm failed to detect and count the apples in a real life image mainly due to the preprocessing step of Canny edge detection. 
 
 In this post, we will consider two approaches to detect and count the apples in real world images. In the first approach, we will try to improve the coin detection algorithm of previous blog post for apple detection and counting purpose. In this approach, we will first automatize the process of Canny edge detection in which requirement to give lower and upper threshold values is eliminated. Using automatic Canny edge detection and mean shift filtering algorithm [3], we will try to get a good edge map to detect the apples. In the second approach, we will see a `color image processing` approach which provides us the correct results most of the time to detect and count the apples of certain color in real life images.
 
@@ -75,7 +75,7 @@ The output of the above program is as follows:
 
 ![](/assets/images/20210207/pic0.png)
 
-One can see that the output image of the above program is not satisfactory on terms of apples detection and counting purpose as both the detection accuracy as well as counting accuracy is not up to the mark like humans would interpret. There are a lot of unnecessary circles which can be removed with post processing however it would not be a good generalized algorithm as it may work for this image but not for other images. 
+One can see that the output image of the above program is not satisfactory in terms of apples detection and counting purpose as both the detection accuracy as well as counting accuracy is not up to the mark like humans would interpret. There are many unnecessary circles which can be removed with post processing however it would not be a good generalized algorithm as it may work for this image but not for other images. 
 
 In the next section, we will consider a color image processing based approach which gives us good results most of the time.
 
@@ -89,11 +89,11 @@ In this approach, we will make use of the color space conversion to detect and c
 
 The following program provides the best results for detecting and counting the apples which are variants of `red `color such as:
 
-![](/assets/images/20210207/image5.png)
+![](/assets/images/20210207/image6.png)
 
 **Image sources: Google images**
 
-![](/assets/images/20210207/image6.png)
+![](/assets/images/20210207/image5.png)
 
 **Program:**
 
@@ -148,7 +148,7 @@ cv2.waitKey(0)
 ```
 
 **Explanation:**
-Here, in this approach, first of all find the range of color of the apples in the HSV space for the following image which is the focus our discussion in this blog.
+In this approach, first of all we find the range of color of the apples in the HSV space for the same image on which the first approach algorithm performed poorly.
 
 ![](/assets/images/20210207/image0.png)
 
@@ -164,7 +164,7 @@ Then we can select the lower and upper ranges for the selected color by varying 
 
 ![](/assets/images/20210207/e2.png) 
 
-We will use these ranges to create the mask. Now in order to have a better mask we also consider the slight red yellowish color of the apples. To create color masks we use `cv2.inRange()` function. Our final mask will be the addition of two masks. The ranges obtained for these colors is as follows:
+After finding the lower and upper values, we will use these ranges to create the binary mask. Now in order to have a better mask, we also consider the slight yellowish color of the apples. To create color masks we use `cv2.inRange()` function. Our final mask will be the addition of two masks. The ranges obtained for these colors is as follows:
 
 * low_apple_red = (160.0, 153.0, 153.0)
 * high_apple_red = (180.0, 255.0, 255.0)
