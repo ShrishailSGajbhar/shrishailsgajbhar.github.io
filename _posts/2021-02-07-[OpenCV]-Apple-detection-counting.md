@@ -152,7 +152,7 @@ In this approach, first of all we find the range of color of the apples in the H
 
 ![](/assets/images/20210207/image0.png)
 
-In order to do this, we open this image in the GIMP software and select the color image selector option from the toolbox as shown below and select one of the pixel of the existing apple.
+In order to do this, we open this image in the GIMP[4] software and select the color picker tool from the toolbox as shown below and select one of the pixel of the existing apple.
 
 ![](/assets/images/20210207/e1.png)
 
@@ -163,6 +163,21 @@ Then we click on the "active forground color option" as shown below to get the a
 Then we can select the lower and upper ranges for the selected color by varying the H or S or V control bar using the GUI as shown below:
 
 ![](/assets/images/20210207/e2.png) 
+However, we need to convert these HSV values obtained from GIMP software to the OpenCV HSV values for proper results. Following Python function will convert the GIMP HSV values to OpenCV HSV values.
+
+```python
+def GIMP_HSV_To_OpenCV_HSV(gimpH, gimpS, gimpV):
+    '''
+    This function converts the HSV values of a color as seen in GIMP to OpenCV HSV form.
+    References: https://gist.github.com/akashjobanputra/fd90aa23ca22b703bad6886f3e9a7d24
+    '''
+    opencvH = float(gimpH / 2)
+    opencvS = float(gimpS / 100) * 255
+    opencvV = float(gimpV / 100) * 255
+
+    return (opencvH, opencvS, opencvV)
+
+```
 
 After finding the lower and upper values, we will use these ranges to create the binary mask. Now in order to have a better mask, we also consider the slight yellowish color of the apples. To create color masks we use `cv2.inRange()` function. Our final mask will be the addition of two masks. The ranges obtained for these colors is as follows:
 
@@ -217,4 +232,4 @@ In the above image one can see that most of the visible apples are detected corr
 1. [Image Segmentation Using Color Spaces in OpenCV + Python – Real Python](https://realpython.com/python-opencv-color-spaces/)
 2. [Zero-parameter, automatic Canny edge detection with Python and OpenCV - PyImageSearch](https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/)
 3. D. Comaniciu and P. Meer, "Mean shift: a robust approach toward feature space analysis," in *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 24, no. 5, pp. 603-619, May 2002, doi: 10.1109/34.1000236.
-
+4. https://www.gimp.org/
