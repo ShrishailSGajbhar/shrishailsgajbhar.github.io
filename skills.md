@@ -4,23 +4,15 @@ title: "Skills"
 tags: []
 comments: false
 ---
-#### Programming Languages (Core, Scripting etc)
-**• C++ • Python • Java • MATLAB • C • Shell Script**
-![](./assets/images/skill1_1.png)
 
----
-#### Libraries (ML/CV/DL)
-**• Scikit-Learn • Dlib • Pandas • Numpy • OpenCV • Open3D**
-![](./assets/images/skill2.png)
-
----
-#### Frameworks 
-**• TensorFlow 2.0 • Pytorch • Keras • OpenVINO • Flask • Heroku**
-![](./assets/images/skill3.png)
-
----
-#### Version Control & DevOps  
-**• Git • GitHub • Docker**
-![](./assets/images/skill4.png)
+* **Machine Learning:** Classification, Regression, Clustering, Decision Trees, K-Means Clustering, Bagging, Boosting, Stacking
+* **Statistical Methods:** Predictive Analysis, Hypothesis Testing and Confidence, Intervals, Principal Component Analysis and Dimensionality Reduction
+* **Programming Languages:** Python, Core Java, Modern C++, MATLAB
+* **Scripting Language:** Bash | **Version Control & DevOps:** Git, GitHub, Docker
+* **Big Data:** Hadoop, Spark, Hive | **IoT:** AWS IoT
+* **Cloud Competency:** Google Cloud, AWS
+* **Databases:** PostgreSQL, MySQL | **Database Languages:** SQL, HiveQL
+* **Libraries:** NumPy, Pandas, OpenCV, scikit-learn, matplotlib
+* **Frameworks:** Keras, TensorFlow, PyTorch, Flask, OpenVINO, Django
 
 ---

@@ -8,8 +8,8 @@ comments: false
 > 
 > --Isac Asimov
 
-Hi there, I am Dr. Shrishail Gajbhar. Thanks for visiting my Tech(B)log, a technical log of my learning explorations. As a researcher, I am trying to comprehend the secrets of Artificial Intelligence (AI) focussing on its Image Processing (IP), Computer Vision (CV), Machine Learning (ML) and Deep Learning (DL) aspects. 
-
+Hi there, I am Dr. Shrishail Gajbhar. Thanks for visiting my Tech(B)log, a technical log of my learning explorations. I am a researcher and an aspiring data scientist.
+ 
 I have started this blog as a personal logbook to retrospect what I have learned.
 
 #### About me
@@ -20,14 +20,13 @@ I have started this blog as a personal logbook to retrospect what I have learned
 Ph.D in Information and Communication Technology (ICT)  
 Email: <shrishailgajbhar5@gmail.com>**  
 
-### \[[CV](CV_SSG.pdf){:target="_blank"}\] \[[Google Scholar](https://scholar.google.co.in/citations?user=ObE0HeYAAAAJ&hl=en){:target="_blank"}\] \[[GitHub](https://github.com/ShrishailSGajbhar){:target="_blank"}\] \[[LinkedIn](https://www.linkedin.com/in/shrishailgajbhar){:target="_blank"}\] \[[Kaggle](https://www.kaggle.com/shrishailgajbhar){:target="_blank"}\] \[[HackerRank](https://www.hackerrank.com/shrishailgajbha1){:target="_blank"}\] \[[SoloLearn](https://www.sololearn.com/Profile/19733903){:target="_blank"}\]
-### News
+### \[[View my resume](SSG_Resume.pdf){:target="_blank"}\] \[[LinkedIn](https://www.linkedin.com/in/shrishailgajbhar){:target="_blank"}\]
 
-* Recently completed an online Post Graduate Program in Machine Learning (PGP-ML) offered by [Great Learning](https://www.greatlearning.in/pg-program-machine-learning-course), an ed-tech company. [[view certificate](https://olympus1.greatlearning.in/certificate/RLYZBOCW){:target="_blank"}] [[view transcript](https://olympus1.greatlearning.in/transcript/RQWDHIVF){:target="_blank"}]  [[view e-portfolio](https://eportfolio.greatlearning.in/dr--shrishail-sharad-gajbhar){:target="_blank"}].
+####  \[[Google Scholar](https://scholar.google.co.in/citations?user=ObE0HeYAAAAJ&hl=en){:target="_blank"}\] \[[GitHub](https://github.com/ShrishailSGajbhar){:target="_blank"}\]  \[[GCP Profile]( https://www.qwiklabs.com/public_profiles/80676c9c-b035-44a5-b030-81c2ede6ff94){:target="_blank"}\] \[[Kaggle](https://www.kaggle.com/shrishailgajbhar){:target="_blank"}\] \[[HackerRank](https://www.hackerrank.com/shrishailgajbha1){:target="_blank"}\] \[[SoloLearn](https://www.sololearn.com/Profile/19733903){:target="_blank"}\]
 
-### Recent Research Interests
+### Research Interests
 
-*	Deep Learning: CNN
+*   Deep Learning: CNN
 *   Computer Vision: Object Detection
 *   Machine Learning: Supervised and Unsupervised Learning, Ensemble Techniques, Recommendation systems.
 
@@ -38,6 +37,7 @@ Email: <shrishailgajbhar5@gmail.com>**
 *   2011.07--2012.06: Junior Research Fellow, [DA-IICT, Gandhinagar](https://www.daiict.ac.in/){:target="_blank"}, Gujarat, India..
 
 ### Education
+* 2019.11--2020.07: Post Graduate Program in Machine Learning (PGP-ML) offered by [Great Lakes Executive Learning](https://www.greatlearning.in/pg-program-machine-learning-course). [[view certificate](https://olympus1.greatlearning.in/certificate/RLYZBOCW){:target="_blank"}] [[view transcript](https://olympus1.greatlearning.in/transcript/RQWDHIVF){:target="_blank"}]  [[view e-portfolio](https://eportfolio.greatlearning.in/dr--shrishail-sharad-gajbhar){:target="_blank"}].
 
 *   2012.01--2017.12: Ph.D. (ICT), [DA-IICT, Gandhinagar](https://www.daiict.ac.in/){:target="_blank"}, Gujarat, India.
     * Thesis Title: ["Wavelets and filter banks: novel approaches for real and complex-valued transform designs"](http://drsr.daiict.ac.in/handle/123456789/650){:target="_blank"} [[View](201121016.pdf){:target="_blank"}\]

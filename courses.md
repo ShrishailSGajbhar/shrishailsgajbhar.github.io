@@ -11,7 +11,10 @@ I believe in **life long learning**. Here is the list of courses that I have com
 
 ---
 
-#### Recent Certificates: 
+#### Recent Certificates:
+* **23-Feb-21**: [AWS IOT](https://learning.edx.org/course/course-v1:AWS+OTP-AWSD5+1T2019/home) by edX [[view credential](https://courses.edx.org/certificates/850ca96bfe794a969aaa6af7c18113e7){:target="_blank"}]
+* **18-Feb-21**: SQL - by [SoloLearn](https://www.sololearn.com/learning/1060) [[view credential](https://www.sololearn.com/certificates/course/en/19733903/1060/landscape/png){:target="_blank"}]
+* **17-Feb-21**: Data Science - by InternShala [[view credential](https://drive.google.com/file/d/1ORHsfjZ0bax-ddCiex4lcblamF-xqiyW/view?usp=sharing){:target="_blank"}]]
 * **22-Jan-21**: Python 3 - by [SoloLearn](https://www.sololearn.com/learning/1073) [[view credential](https://www.sololearn.com/certificates/course/en/19733903/1073/landscape/png){:target="_blank"}]
 * **18-Jan-21**: Python for Data Science - by NPTEL [[view credential](https://internalapp.nptel.ac.in/NOC/NOC20/SEM2/Ecertificates/106/noc20-cs80/Course/NPTEL20CS80S32320262166742.jpg){:target="_blank"}]] (**Among top 1%**)
 * **09-Jan-21**: C++ - by [SoloLearn](https://www.sololearn.com/learning/1051) [[view credential](https://www.sololearn.com/certificates/course/en/19733903/1051/landscape/png){:target="_blank"}]
