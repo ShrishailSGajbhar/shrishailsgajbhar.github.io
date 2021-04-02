@@ -33,8 +33,7 @@ Email: <shrishailgajbhar5@gmail.com>**
 ### Work Experience
 
 *   2017.07--Now: Assistant Professor, [WIT, Solapur](https://www.witsolapur.org/){:target="_blank"}, Maharashtra, India.
-*   2012.07--2017.06: Research Scholar, [DA-IICT, Gandhinagar](https://www.daiict.ac.in/){:target="_blank"}, Gujarat, India.
-*   2011.07--2012.06: Junior Research Fellow, [DA-IICT, Gandhinagar](https://www.daiict.ac.in/){:target="_blank"}, Gujarat, India..
+*   2011.07--2017.06: Ph.D Scholar, [DA-IICT, Gandhinagar](https://www.daiict.ac.in/){:target="_blank"}, Gujarat, India.
 
 ### Education
 * 2019.11--2020.07: Post Graduate Program in Machine Learning (PGP-ML) offered by [Great Lakes Executive Learning](https://www.greatlearning.in/pg-program-machine-learning-course). [[view certificate](https://olympus1.greatlearning.in/certificate/RLYZBOCW){:target="_blank"}] [[view transcript](https://olympus1.greatlearning.in/transcript/RQWDHIVF){:target="_blank"}]  [[view e-portfolio](https://eportfolio.greatlearning.in/dr--shrishail-sharad-gajbhar){:target="_blank"}].
